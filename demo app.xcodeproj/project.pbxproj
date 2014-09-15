@@ -423,7 +423,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo app/demo app-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/Eatglobe app/demo app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/demo app/demo app-Info.plist";
 				PRODUCT_NAME = "demo app";
 				WRAPPER_EXTENSION = app;
 			};
@@ -436,7 +436,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "demo app/demo app-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/Eatglobe app/demo app-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/demo app/demo app-Info.plist";
 				PRODUCT_NAME = "demo app";
 				WRAPPER_EXTENSION = app;
 			};
