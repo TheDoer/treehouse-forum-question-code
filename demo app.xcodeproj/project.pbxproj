@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE52D8B719C73A90009F5C0F /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52D8B219C73A90009F5C0F /* MFSideMenuContainerViewController.m */; };
+		CE52D8B819C73A90009F5C0F /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52D8B419C73A90009F5C0F /* MFSideMenuShadow.m */; };
+		CE52D8B919C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52D8B619C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.m */; };
 		CE863F1919C596E000AD00F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE863F1819C596E000AD00F7 /* Foundation.framework */; };
 		CE863F1B19C596E000AD00F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE863F1A19C596E000AD00F7 /* CoreGraphics.framework */; };
 		CE863F1D19C596E000AD00F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE863F1C19C596E000AD00F7 /* UIKit.framework */; };
@@ -20,9 +23,6 @@
 		CE863F3A19C596E000AD00F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE863F1C19C596E000AD00F7 /* UIKit.framework */; };
 		CE863F4219C596E000AD00F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE863F4019C596E000AD00F7 /* InfoPlist.strings */; };
 		CE863F4419C596E000AD00F7 /* Eatglobe_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE863F4319C596E000AD00F7 /* Eatglobe_appTests.m */; };
-		CE863F5519C5971200AD00F7 /* MFSideMenuContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE863F5019C5971200AD00F7 /* MFSideMenuContainerViewController.m */; };
-		CE863F5619C5971200AD00F7 /* MFSideMenuShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = CE863F5219C5971200AD00F7 /* MFSideMenuShadow.m */; };
-		CE863F5719C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE863F5419C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.m */; };
 		CE863F5919C597CD00AD00F7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE863F5819C597CD00AD00F7 /* QuartzCore.framework */; };
 		CE863F5C19C598CD00AD00F7 /* EGMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE863F5B19C598CD00AD00F7 /* EGMainView.m */; };
 		CE863F5E19C59A0C00AD00F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE863F5D19C59A0C00AD00F7 /* Main.storyboard */; };
@@ -41,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE52D8B019C73A90009F5C0F /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
+		CE52D8B119C73A90009F5C0F /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
+		CE52D8B219C73A90009F5C0F /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
+		CE52D8B319C73A90009F5C0F /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
+		CE52D8B419C73A90009F5C0F /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
+		CE52D8B519C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
+		CE52D8B619C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
 		CE863F1519C596E000AD00F7 /* demo app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "demo app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE863F1819C596E000AD00F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE863F1A19C596E000AD00F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,13 +66,6 @@
 		CE863F3F19C596E000AD00F7 /* demo appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "demo appTests-Info.plist"; sourceTree = "<group>"; };
 		CE863F4119C596E000AD00F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE863F4319C596E000AD00F7 /* Eatglobe_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Eatglobe_appTests.m; sourceTree = "<group>"; };
-		CE863F4E19C5971200AD00F7 /* MFSideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenu.h; sourceTree = "<group>"; };
-		CE863F4F19C5971200AD00F7 /* MFSideMenuContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuContainerViewController.h; sourceTree = "<group>"; };
-		CE863F5019C5971200AD00F7 /* MFSideMenuContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuContainerViewController.m; sourceTree = "<group>"; };
-		CE863F5119C5971200AD00F7 /* MFSideMenuShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSideMenuShadow.h; sourceTree = "<group>"; };
-		CE863F5219C5971200AD00F7 /* MFSideMenuShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSideMenuShadow.m; sourceTree = "<group>"; };
-		CE863F5319C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MFSideMenuAdditions.h"; sourceTree = "<group>"; };
-		CE863F5419C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MFSideMenuAdditions.m"; sourceTree = "<group>"; };
 		CE863F5819C597CD00AD00F7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE863F5A19C598CD00AD00F7 /* EGMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGMainView.h; sourceTree = "<group>"; };
 		CE863F5B19C598CD00AD00F7 /* EGMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGMainView.m; sourceTree = "<group>"; };
@@ -101,6 +101,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE52D8AF19C73A90009F5C0F /* MFSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CE52D8B019C73A90009F5C0F /* MFSideMenu.h */,
+				CE52D8B119C73A90009F5C0F /* MFSideMenuContainerViewController.h */,
+				CE52D8B219C73A90009F5C0F /* MFSideMenuContainerViewController.m */,
+				CE52D8B319C73A90009F5C0F /* MFSideMenuShadow.h */,
+				CE52D8B419C73A90009F5C0F /* MFSideMenuShadow.m */,
+				CE52D8B519C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.h */,
+				CE52D8B619C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.m */,
+			);
+			path = MFSideMenu;
+			sourceTree = "<group>";
+		};
 		CE863F0C19C596E000AD00F7 = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +149,7 @@
 		CE863F1E19C596E000AD00F7 /* demo app */ = {
 			isa = PBXGroup;
 			children = (
-				CE863F4D19C5971200AD00F7 /* MFSideMenu */,
+				CE52D8AF19C73A90009F5C0F /* MFSideMenu */,
 				CE863F2719C596E000AD00F7 /* EGAppDelegate.h */,
 				CE863F2819C596E000AD00F7 /* EGAppDelegate.m */,
 				CE863F2D19C596E000AD00F7 /* EGViewController.h */,
@@ -181,21 +195,6 @@
 				CE863F4019C596E000AD00F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CE863F4D19C5971200AD00F7 /* MFSideMenu */ = {
-			isa = PBXGroup;
-			children = (
-				CE863F4E19C5971200AD00F7 /* MFSideMenu.h */,
-				CE863F4F19C5971200AD00F7 /* MFSideMenuContainerViewController.h */,
-				CE863F5019C5971200AD00F7 /* MFSideMenuContainerViewController.m */,
-				CE863F5119C5971200AD00F7 /* MFSideMenuShadow.h */,
-				CE863F5219C5971200AD00F7 /* MFSideMenuShadow.m */,
-				CE863F5319C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.h */,
-				CE863F5419C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.m */,
-			);
-			name = MFSideMenu;
-			path = "../../../Downloads/MFSideMenu-master/MFSideMenu";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,15 +295,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE52D8B819C73A90009F5C0F /* MFSideMenuShadow.m in Sources */,
 				CE863F2F19C596E000AD00F7 /* EGViewController.m in Sources */,
-				CE863F5519C5971200AD00F7 /* MFSideMenuContainerViewController.m in Sources */,
-				CE863F5619C5971200AD00F7 /* MFSideMenuShadow.m in Sources */,
-				CE863F5719C5971200AD00F7 /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				CE863F2919C596E000AD00F7 /* EGAppDelegate.m in Sources */,
+				CE52D8B919C73A90009F5C0F /* UIViewController+MFSideMenuAdditions.m in Sources */,
 				CE863F6119C59AB100AD00F7 /* EGSideMenu.m in Sources */,
 				CE863F5C19C598CD00AD00F7 /* EGMainView.m in Sources */,
 				CE863F6419C59BB900AD00F7 /* EGMapView.m in Sources */,
 				CE863F2519C596E000AD00F7 /* main.m in Sources */,
+				CE52D8B719C73A90009F5C0F /* MFSideMenuContainerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
